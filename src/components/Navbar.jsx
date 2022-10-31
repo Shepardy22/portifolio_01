@@ -7,9 +7,8 @@ export default function Navbar(visible) {
     return (
         //Barra de Navegação
         <nav className={`fixed top-0 w-full ${visibleClass} text-indigo-100 font-ubuntu h-12  transition-all duration-300`}>
-            {/* Logo */}
             <div className="container m-auto flex justify-between items-center">
-
+                {/* Logo */}
                 <div className='mt-1 ml-8 sm:mx-2'><a href="/" className="text-indigo-100 text-3xl  ">
                             Port
                         <span className="text-orange-400 transition-all duration-300 ease-in">

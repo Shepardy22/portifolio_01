@@ -9,20 +9,14 @@ function App() {
   useEffect(() => {
     const intersectionObserver = new IntersectionObserver((entries) => {
         if(entries.some(entry => entry.isIntersecting)) {
-            setVisible(true);
-            
+            setVisible(true);    
         }else {
             setVisible(false);
-
-        }
-
-        
+        }  
     });
-
     intersectionObserver.observe(document.querySelector('#sentinel'));
-
    return () => intersectionObserver.disconnect();
-});
+  });
 
   return (
     <>

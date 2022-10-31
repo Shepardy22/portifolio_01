@@ -1,14 +1,9 @@
-import { useEffect, useState } from 'react';
-import man from '../img/man.jpg';
+// import man from '../img/man.jpg';
+import Sobre from './Sobre';
 
   
 
 export default function Home() {
-
-    
-
-    
-
 
     return (
         <>
@@ -25,7 +20,7 @@ export default function Home() {
         </section>
         <br />
         <div id='sentinel'  >
-            <img  src={man} alt="" />
+            <Sobre/>
         </div>
         
         </>
