@@ -1,10 +1,12 @@
 import {FiMenu} from 'react-icons/fi';
 
+//'{bg-gray-900}
+export default function Navbar(visible) {
 
-export default function Navbar() {
+    let visibleClass = visible.visible ? 'bg-gray-900' : 'bg-transparent';
     return (
         //Barra de Navegação
-        <nav className="fixed top-0 w-full bg-gray-900 text-indigo-100 font-ubuntu h-12" >
+        <nav className={`fixed top-0 w-full ${visibleClass} text-indigo-100 font-ubuntu h-12  transition-all duration-300`}>
             {/* Logo */}
             <div className="container m-auto flex justify-between items-center">
 

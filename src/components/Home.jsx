@@ -1,4 +1,15 @@
+import { useEffect, useState } from 'react';
+import man from '../img/man.jpg';
+
+  
+
 export default function Home() {
+
+    
+
+    
+
+
     return (
         <>
         <section className=" flex bg-[url('./img/bg.jpg')] bg-cover  h-screen  font-ubuntu" >
@@ -10,15 +21,13 @@ export default function Home() {
                     <a className="flex w-28 justify-center font-medium mt-2 px-2 py-2  bg-orange-400 rounded text-gray-900  hover:font-semibold" href="/">Contatar-me</a>
                 </div>
             </div>
+            
         </section>
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div id='sentinel'  >
+            <img  src={man} alt="" />
+        </div>
+        
         </>
     );
 }
