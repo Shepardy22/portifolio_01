@@ -26,7 +26,10 @@ export default function Sobre() {
                         flex flex-col 
                         justify-center'>
 
-                        <h2 className=' mx-auto invisible md:visible font-ubuntu text-3xl text-gray-900 mb-2'>Sobre</h2>
+                        <div className='flex-col mx-auto '>
+                            <h2 className=' flex justify-center invisible md:visible font-ubuntu text-3xl text-gray-900 '>Sobre</h2>
+                            <div className='h-0.5 w-48 flex mb-2 bg-orange-400 invisible md:visible'></div>
+                        </div>
                         <p className='mx-4 p-8  md:border rounded bg-gray-200'>
                             
                                 <p>Me chamo Jhon Smith,</p>
