@@ -1,4 +1,5 @@
 // import man from '../img/man.jpg';
+import Servicos from './Servicos';
 import Sobre from './Sobre';
 
   
@@ -19,7 +20,7 @@ export default function Home() {
             
         </section>
         <br />
-        <div id='sentinel'  >
+        <div id='sentinel' className='' >
             <Sobre/>
         </div>
         

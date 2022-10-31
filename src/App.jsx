@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 
 import { useState, useEffect } from "react";
+import Servicos from "./components/Servicos";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -19,10 +20,11 @@ function App() {
   });
 
   return (
-    <>
+    <div className="flex flex-col  bg-slate-100 ">
     <Navbar visible={visible}/>
     <Home/>
-    </>
+    <Servicos/>
+    </div>
   );
 }
 
