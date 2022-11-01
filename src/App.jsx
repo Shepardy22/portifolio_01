@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 
 import { useState, useEffect } from "react";
 import Servicos from "./components/Servicos";
+import Especialidades from "./components/Especialidades";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -25,6 +26,7 @@ function App() {
     <Navbar visible={visible}/>
     <Home/>
     <Servicos/>
+    <Especialidades/>
     </div>
   );
 }
