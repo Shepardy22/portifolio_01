@@ -15,6 +15,7 @@ function App() {
             setVisible(false);
         }  
     });
+    intersectionObserver.observe(document.querySelector('#sobre')); //id sentinel em serviços
     intersectionObserver.observe(document.querySelector('#sentinel'));
    return () => intersectionObserver.disconnect();
   });
