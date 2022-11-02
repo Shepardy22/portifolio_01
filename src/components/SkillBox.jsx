@@ -1,7 +1,7 @@
 export default function  SkillBox(){
     return (
         //container
-        <div className="relative mx-6  w-full bg-slate-200"> 
+        <div className="relative mx-6   bg-slate-200"> 
             <div className=" m-2">
                 <div className="flex justify-between mr-6">
                     <span className="block">HTML</span>
