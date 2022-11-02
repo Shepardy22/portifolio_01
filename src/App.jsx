@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { useState, useEffect } from "react";
 import Servicos from "./components/Servicos";
 import Especialidades from "./components/Especialidades";
+import Footer from "./components/Footer";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -23,10 +24,11 @@ function App() {
 
   return (
     <div className="flex flex-col  bg-slate-100 ">
-    <Navbar visible={visible}/>
-    <Home/>
-    <Servicos/>
-    <Especialidades/>
+      <Navbar visible={visible}/>
+      <Home/>
+      <Servicos/>
+      <Especialidades/>
+      <Footer/>
     </div>
   );
 }

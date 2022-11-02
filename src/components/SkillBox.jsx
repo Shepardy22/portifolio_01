@@ -49,7 +49,7 @@ export default function  SkillBox(){
             <div className=" m-2">
                 <div className="flex justify-between mr-6">
                     <span className="block">Java</span>
-                    <span className="tootip">85%</span>
+                    <span className="tootip">60%</span>
                 </div>
                 
                 <div className="h-2 w-full mt-1 bg-slate-300 ">
