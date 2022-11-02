@@ -8,9 +8,13 @@ module.exports = {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
       }, 
-      // backgroundImage: {
-      //   "backgroundBG": "url('./img/bg.jpg')",
-      // },
+      width: {
+        "95": "95.0%", //html
+        "85": "90.0%", // css / react
+        "82": "82.0%", // js
+        "60": "60.0%", // java
+      },
+      
     },
     variants: {
       extend: {

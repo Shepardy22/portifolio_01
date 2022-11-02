@@ -1,3 +1,6 @@
+import SkillBox from "./SkillBox";
+
+
 export default function Especialidades(){
     return (
         <div className="w-full h-full flex flex-col mx-auto m-4">
@@ -16,37 +19,8 @@ export default function Especialidades(){
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veniam, at ad fugit praesentium beatae eaque voluptas nam modi quas neque recusandae totam, repellat velit ut explicabo enim corrupti esse.</p>
                     <button className="py-2 w-44 rounded mt-2 hover:font-bold bg-orange-400">Mais informações</button>
                 </div>
-
-                <div className="flex flex-col mx-6 md:w-1/2 mt-8 md:mt-2 ">
-                    <div className="">
-                        <div className="flex justify-between ">
-                            <span>html</span>
-                            <span> 95%</span>
-                        </div>
-                        <div className="bg-slate-300 h-2 w-full  ">
-                            <div className="bg-orange-400 w-96 h-2 "/>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="flex justify-between">
-                            <span>CSS</span>
-                            <span> 80%</span>
-                        </div>
-                        <div className="bg-slate-300 h-2 w-full">
-                            <div className="bg-orange-400 w-80 h-2 "/>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="flex justify-between">
-                            <span>JavaScript</span>
-                            <span> 72%</span>
-                        </div>
-                        <div className="bg-slate-300 h-2 w-full">
-                            <div className="bg-orange-400 w-72 h-2 "/>
-                        </div>
-                    </div>
-                    
-                </div>
+                
+                <SkillBox/>
             </div>
 
         </div>
