@@ -34,10 +34,10 @@ export default function Navbar(visible) {
                     <div className='absolute h-screen -right-full  w-8/12 bg-gray-200 top-0   
                     opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300'>
                         <ul className='text-gray-900 flex flex-col items-center w-full text-lg pt-10 transition-all duration-300'>
-                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full ">Inicio</li>
-                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full">Sobre</li>
-                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full">Serviços</li>
-                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full">Especialidade</li>
+                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full "><a href="#inicio">Inicio</a></li>
+                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full"><a href="#sobre">Sobre</a></li>
+                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full"><a href="#servicos">Serviços</a></li>
+                            <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full"><a href="#especialidade">Especialidade</a></li>
                             <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full">Equipe</li>
                             <li className=" hover:bg-orange-200  transition-all duration-300 py-2 w-full">Contato</li>
                         </ul>
