@@ -18,10 +18,10 @@ export default function Navbar(visible) {
 
                 {/* Menu */}
                 <ul className="hidden sm:flex text-xs font-medium ml-6 transition-colors duration-500  mt-1">
-                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Inicio</a></li>
-                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Sobre</a></li>
-                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Serviços</a></li>
-                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Especialidade</a></li>
+                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="#inicio">Inicio</a></li>
+                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="#sobre">Sobre</a></li>
+                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="#servicos">Serviços</a></li>
+                    <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="#especialidade">Especialidade</a></li>
                     <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Equipe</a></li>
                     <li><a className="hover:text-orange-400 transition-all duration-300 inline-block p-2 text-base " href="/">Contato</a></li>
                 </ul>

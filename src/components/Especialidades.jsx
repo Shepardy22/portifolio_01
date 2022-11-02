@@ -3,7 +3,7 @@ import SkillBox from "./SkillBox";
 
 export default function Especialidades(){
     return (
-        <div className="w-full h-full flex flex-col mx-auto m-4">
+        <div className="w-full h-full flex flex-col mx-auto m-4" id="especialidade">
             <div className="flex flex-col mx-auto text-center my-6">
                 <h2 className="text-3xl font-ubuntu">Especialidades</h2>
                 <div className="flex items-center">

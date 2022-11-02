@@ -4,7 +4,7 @@ export default function Sobre() {
     return (
         
         
-        <section className=' mx-auto bg-gray-100 mb-4 ' >
+        <section className=' mx-auto bg-gray-100 mb-4 ' id='sobre'>
         
             <div className='flex justify-center mx-4 '>
             
@@ -31,13 +31,13 @@ export default function Sobre() {
                             <h2 className=' flex justify-center invisible md:visible font-ubuntu text-3xl text-gray-900 '>Sobre</h2>
                             <div className='h-0.5 w-48 flex mb-2 bg-orange-400 invisible md:visible'></div>
                         </div>
-                        <p className='mx-4 p-8  md:border rounded bg-gray-200 '>
+                        <div className='mx-4 p-8  md:border rounded bg-gray-200 '>
                             
                                 <p >Me chamo Jhon Smith,</p>
                                 <p>e sou <span>Desenvolvedor Front-end</span></p>
                             
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam. Alias amet dolorem fugiat quaerat debitis earum at repellat non velit distinctio, exercitationem aperiam, maxime nostrum! Sit ex rem earum!
-                        </p>
+                        </div>
                         <button className='ml-8 mt-2 text-gray-900 py-2 w-32 rounded  bg-orange-400 hover:font-bold'>Baixar CV</button>
                     </div>
 

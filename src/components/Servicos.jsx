@@ -5,7 +5,7 @@ import {IoIosArrowBack,IoIosArrowForward} from 'react-icons/io';
 export default function Servicos(){
     return (    
         <div className="h-full  w-full  bg-slate-900 " id='sentinel'>
-            <div className=" flex flex-col ">
+            <div className=" flex flex-col " id='servicos'>
 
                 <div className="mx-auto mt-14">
                     <h2 className="text-3xl text-gray-200 " >Serviços</h2>
