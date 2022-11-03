@@ -1,16 +1,4 @@
-## Fonts:
-- Roboto:
-   - Light 300 Italic 
-   - Regular 400 
-   - Medium 500 
 
-- Ubuntu:
-   - Regular 400 Italic 
-   - Medium 500 
-   - Bold 700
-
-## Icons:
-- [Ionicons](https://ionic.io/ionicons)
 
 ### `npm start`
 
